@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICM — Construction métallique</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="ICM — Accueil">
+    <img src="image.jpg" alt="Imadache Construction Métallique">
+    </a>
+    <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+      Menu
+    </button>
+    <nav id="menu" class="site-nav" aria-label="Navigation principale">
+      <a href="#presentation">Présentation</a>
+      <a href="#moyens">Nos moyens</a>
+      <a href="#certification">Certification</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Imadache Construction Métallique · Algérie</p>
+        <h1>Bienvenue<br><span>chez ICM</span></h1>
+        <p class="hero-subtitle">Le savoir-faire des grands projets, depuis plus de 25 ans.</p>
+        <a class="button" href="#contact">Parlons de votre projet</a>
+      </div>
+    </section>
+
+    <section id="presentation">
+      <div class="intro-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Qui sommes-nous ?</p>
+          <h2>Présentation</h2>
+          <p class="intro-copy">ICM accompagne vos projets de construction métallique, de l’étude à la mise en œuvre.</p>
+        </div>
+        <article class="mission-card">
+          <h3>Notre mission</h3>
+          <p>Concevoir et réaliser des solutions métalliques adaptées aux besoins de chaque projet.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="moyens">
+      <div class="section-heading">
+        <p class="eyebrow">Notre expertise</p>
+        <h2>Nos moyens</h2>
+        <p>Une approche complète pour donner vie à vos ouvrages métalliques.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="card-number">01</span>
+          <h3>Études</h3>
+          <p>Préparation et étude des solutions techniques adaptées à votre projet.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">02</span>
+          <h3>Fabrication</h3>
+          <p>Réalisation des éléments métalliques selon les exigences définies.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">03</span>
+          <h3>Montage</h3>
+          <p>Mise en place et assemblage des ouvrages sur votre site.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certification">
+      <div class="section-heading">
+        <p class="eyebrow">Nos engagements</p>
+        <h2>Certification</h2>
+      </div>
+      <div class="certification-panel">
+        <div>
+          <h3>Qualité et exigences techniques</h3>
+          <p>Pour toute information sur les certifications et démarches qualité de l’entreprise, contactez notre équipe.</p>
+        </div>
+        <a class="button" href="#contact">Nous contacter</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Échangeons</p>
+          <h2>Contact</h2>
+          <p>Préparez votre demande ici. L’envoi sera disponible lorsque le formulaire sera connecté à un service de messagerie.</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="nom">Nom complet</label>
+          <input id="nom" name="nom" type="text" placeholder="Votre nom" autocomplete="name" required>
+          <label for="email">Adresse e-mail</label>
+          <input id="email" name="email" type="email" placeholder="vous@exemple.com" autocomplete="email" required>
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" placeholder="Parlez-nous de votre projet" required></textarea>
+          <button class="button" type="submit">Préparer mon message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year">2026</span> ICM — Imadache Construction Métallique</p>
+  </footer>
+</body>
+</html>
